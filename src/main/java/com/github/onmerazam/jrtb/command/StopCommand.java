@@ -3,7 +3,7 @@ package com.github.onmerazam.jrtb.command;
 import com.github.onmerazam.jrtb.service.SendBotMessageService;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
-public class StopCommand implements command{
+public class StopCommand implements Command {
 
     private final SendBotMessageService sendBotMessageService;
 

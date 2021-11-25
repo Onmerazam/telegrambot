@@ -5,7 +5,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 
 import static com.github.onmerazam.jrtb.command.CommandName.*;
 
-public class HelpCommand implements command {
+public class HelpCommand implements Command {
 
     private final SendBotMessageService sendBotMessageService;
 

@@ -5,6 +5,6 @@ services:
     build:
       context: .
     environment:
-      - BOT_NAME=${BOT_NAME}
-      - BOT_TOKEN=${BOT_TOKEN}
+      - BOT_NAME=JRTB_demo_bot
+      - BOT_TOKEN=2139588663:AAHfsjxd-v5Fs_hkzLxcZX5VoNET5B4RmzE
     restart: always

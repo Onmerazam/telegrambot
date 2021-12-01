@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  jrtb:
+    build:
+      context: .
+    environment:
+      - BOT_NAME=JRTB_demo_bot
+      - BOT_TOKEN=2139588663:AAHfsjxd-v5Fs_hkzLxcZX5VoNET5B4RmzE
+    restart: always
